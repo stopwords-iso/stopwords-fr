@@ -1,0 +1,26 @@
+{
+  "name": "stopwords-fr",
+  "version": "0.1.0",
+  "author": "Gene Diaz <genediazjr@gmail.com> (http://genediazjr.com)",
+  "description": "The most comprehensive collection of stopwords for the french language.",
+  "keywords": [
+    "french",
+    "stopwords",
+    "stop words"
+  ],
+  "license": "MIT",
+  "repository": "git://github.com/stopwords-iso/stopwords-fr",
+  "bugs": "https://github.com/stopwords-iso/stopwords-fr/issues",
+  "main": "stopwords-fr.json",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "build": "stopwords-collator -s raw -o stopwords-fr",
+    "test": "npm run build && jsonlint stopwords-fr.json -q"
+  },
+  "devDependencies": {
+    "stopwords-collator": "*",
+    "jsonlint": "1.6.x"
+  }
+}

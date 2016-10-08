@@ -1,0 +1,21 @@
+{
+  "name": "stopwords-fr",
+  "description": "The most comprehensive collection of stopwords for the french language.",
+  "keywords": [
+    "french",
+    "stopwords",
+    "stop words"
+  ],
+  "homepage": "https://github.com/stopwords-iso/stopwords-fr",
+  "authors": [
+    "Gene Diaz <genediazjr@gmail.com>"
+  ],
+  "license": "MIT",
+  "main": "stopwords-fr.json",
+  "ignore": [
+    "**/.*",
+    "raw",
+    "node_modules",
+    "bower_components"
+  ]
+}
